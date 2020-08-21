@@ -1,0 +1,42 @@
+.sidebarComponent{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+
+.sidebarComponent__icon{
+    font-size: large !important;
+    color: rgb(78, 76, 76);
+}
+
+.sidebarComponent__title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex: 1;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.sidebarComponent:hover{
+    background: lightgrey;
+    cursor: pointer;
+}
+
+.sidebarComponent:hover > .sidebarComponent__icon{
+    color: red;
+}
+.sidebarComponent:hover > .sidebarComponent__title{
+    
+}
+
+.sidebarComponent.selected {
+    background: lightgray;
+}
+
+.sidebarComponent.selected>.sidebarComponent__icon{
+    color:red;
+}
+.sidebarComponent.selected>.sidebarComponent__title{
+    font-weight: bold;
+}

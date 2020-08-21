@@ -3,17 +3,21 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    background: white;
 }
 
 .header__left{
     justify-content: center;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .header__logo {
-    height: 25px;
+    height: 23px;
     object-fit: contain;
-    margin-left: 8px;
+    margin-left: 5px;
 }
 
 
@@ -51,4 +55,9 @@
 }
 .header__icon{
     margin-right: 5px;
+    font-size: 22px !important;
+    color: rgb(78, 76, 76);
+}
+.avatar{
+    font-size: small !important;
 }

@@ -9,8 +9,9 @@ function App() {
     <div className="app">
       <Header />
       <div className="content">
-        {/* <Sidebar className="first__content"/>
-        <Recommendation className="second__content"/> */}
+        <Sidebar className="first__content"/>
+        <Recommendation />
+
       </div>
     </div>
   );

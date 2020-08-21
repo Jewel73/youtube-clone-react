@@ -1,8 +1,8 @@
 import React from 'react'
-
+import '../css/recommendation.css'
 function Recommendation() {
     return (
-        <div>
+        <div className="recommendation">
             Recomendation
         </div>
     )
