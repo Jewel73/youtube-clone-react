@@ -21,13 +21,12 @@
 }
 
 
-.header__input {
-    padding: ;
+/*.header__input {
     display: flex;
     align-items: center;
     width: 45%;
     border: 1px solid lightgray;
-}
+}*/
 .header__input > input {
     flex: 1;
     border:none;
