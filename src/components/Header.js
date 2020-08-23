@@ -37,7 +37,11 @@ function Header() {
                 <VideoCallIcons className="header__icon"/>
                 <AppsIcon className="header__icon"/>
                 <NotificationsIcon className="header__icon"/>
+<<<<<<< HEAD
                 <Avatar className="videocard__avatar" src="https://yt3.ggpht.com/a-/AOh14GiGpNUkPFcrBW33qW87cVqtEKJriSok7CN4GRWK5Q=s88-c-k-c0xffffffff-no-rj-mo" className="header__icon"/>
+=======
+                <Avatar className="avatar header__icon" src="https://yt3.ggpht.com/a-/AOh14GiGpNUkPFcrBW33qW87cVqtEKJriSok7CN4GRWK5Q=s88-c-k-c0xffffffff-no-rj-mo"/>
+>>>>>>> adcae99967313b9d9494d9b7ea11a5a2367391f4
             </div>
         </div>
     )
