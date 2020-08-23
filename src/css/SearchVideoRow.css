@@ -1,0 +1,35 @@
+.searchvideorow{
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+    
+}
+
+.searchvideorow >img{
+    width: 246px;
+    height: 138px;
+}
+.searchvideorow__text >h4{
+    font-size: 17px;
+    color: rgb(77, 81, 85);
+}
+.searchvideorow__text{
+    margin-left: 15px;
+}
+.searchvideorow__text>p{
+    font-size: 14px;
+    color: #909090
+}
+.subscriber{
+    background-color: lightgray;
+    padding: 2px;
+}
+.subscriberNo{
+    color:blue
+}
+
+.description{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #606060;
+}

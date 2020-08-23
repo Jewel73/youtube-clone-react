@@ -17,7 +17,7 @@ function Sidebar() {
         <div className="sidebar">
             <SidebarComponent selected Icon={HomeIcon} title="Home"/>
             <SidebarComponent Icon={WhatshotIcon} title="Tendings"/>
-            <SidebarComponent Icon={SubscriptionsIcon} title="Subscriptions"/>
+            <SidebarComponent  Icon={SubscriptionsIcon} title="Subscriptions"/>
             <hr/>
             <SidebarComponent Icon={VideoLibraryIcon} title="Library"/>
             <SidebarComponent Icon={HistoryIcon} title="History"/>
@@ -25,7 +25,7 @@ function Sidebar() {
             <SidebarComponent Icon={WatchLaterIcon} title="Watch Later"/>
             <SidebarComponent Icon={ThumbUpAltOutlinedIcon} title="Liked Videos"/>
             <SidebarComponent Icon={ExpandMoreOutlinedIcon} title="Show More"/>
-
+            <hr/>
         </div>
     )
 }

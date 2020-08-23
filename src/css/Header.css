@@ -58,6 +58,7 @@
     font-size: 22px !important;
     color: rgb(78, 76, 76);
 }
-.avatar{
-    font-size: small !important;
+.videocard__avatar{
+    height: 20px !important;
+    width: 30px !important;
 }

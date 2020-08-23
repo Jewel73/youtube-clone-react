@@ -1,4 +1,16 @@
 .recommendation {
+    padding: 10px 20px;
+    padding-bottom: 0;
     flex:0.8;
-    border:1px solid black;
+    background-color: rgba(248, 242, 242, 0.294);
+}
+.recommendation>h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:7px;
+    margin-bottom: 20px;
+}
+
+.recommendation__videos{
+    display: flex;
+    flex-wrap: wrap;
 }

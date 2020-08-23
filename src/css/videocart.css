@@ -1,0 +1,40 @@
+h4,p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.videocard{
+    margin-bottom:40px;
+    width:270px;
+    font-family: trade 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.thumbnail {
+    height: 140px;
+    width: 250px;
+}
+.videocard__info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+.video__text{
+    margin-left: 15px;
+}
+.video__text> h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+    
+}
+
+.video__text >p{
+    font-size: 14px;
+    color: rgb(78, 76, 76);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.videocard__avatar{
+    height: 30px !important;
+    width: 30px !important;
+}
